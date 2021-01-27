@@ -14,29 +14,29 @@
 12. Assuming no errors, the function should return [0,0,0] because discounted is an const object/list the unchanging part of it is the address, not the values themselves so you can push to it without errors.
 
 13. Question 13
-  1. student.name
-  2. student['Grad Year']
-  3. student.greeting()
-  4. student['Favorite Teacher'].name
-  5. student.courseLoad[0]
+    1. student.name
+    2. student['Grad Year']
+    3. student.greeting()
+    4. student['Favorite Teacher'].name
+    5. student.courseLoad[0]
 
 14.
-  a. 32, '3' is a string so the + operator acts as a concat
-  b. 1, '3' gets converted into a number due to the - operator
-  c. 3, since the first operand is a number, null gets converted to 0
-  d. '3null', '3' is a string so the + operator acts as a concat
-  e. 4, true is converted to 1 so 1 + 3 = 3
-  f. 0, false is 0 and so is null so 0 + 0 = 0
-  g. '3undefined', '3' is a string so the + operator acts as a concat
-  h. NaN, the - operator converts both operands to a number but undefined is NaN
+  1. 32, '3' is a string so the + operator acts as a concat
+  2. 1, '3' gets converted into a number due to the - operator
+  3. 3, since the first operand is a number, null gets converted to 0
+  4. '3null', '3' is a string so the + operator acts as a concat
+  5. 4, true is converted to 1 so 1 + 3 = 3
+  6. 0, false is 0 and so is null so 0 + 0 = 0
+  7. '3undefined', '3' is a string so the + operator acts as a concat
+  8. NaN, the - operator converts both operands to a number but undefined is NaN
 
 15.
-  a. True, '2' gets converted into 2, 2 > 1 = true
-  b. False, since both operands are strings, javascrip compares them lexicographically and '2' comes after '12'.
-  c. True, '2' gets converted into 2, 2 == 2 = true
-  d. False, === is a strict equality operator without type conversion, and 2 and '2' are different types.
-  e. False, true gets converted to 1 and 1 != 2
-  f. True, === checks if the operands are the same type, true is a boolean and Boolean(2) converts 2 into a boolean that is true since 2 != 0
+  1. True, '2' gets converted into 2, 2 > 1 = true
+  2. False, since both operands are strings, javascrip compares them lexicographically and '2' comes after '12'.
+  3. True, '2' gets converted into 2, 2 == 2 = true
+  4. False, === is a strict equality operator without type conversion, and 2 and '2' are different types.
+  5. False, true gets converted to 1 and 1 != 2
+  6. True, === checks if the operands are the same type, true is a boolean and Boolean(2) converts 2 into a boolean that is true since 2 != 0
 
 16. == checks the value between two operands and performs type conversions if necessary, whereas === checks the value between two operands without any type conversions.
 
