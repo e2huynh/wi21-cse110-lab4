@@ -14,11 +14,11 @@
 12. Assuming no errors, the function should return [0,0,0] because discounted is an const object/list the unchanging part of it is the address, not the values themselves so you can push to it without errors.
 
 13.
-  13.1. student.name
-  b. student['Grad Year']
-  c. student.greeting()
-  d. student['Favorite Teacher'].name
-  e. student.courseLoad[0]
+  1. student.name
+  2. student['Grad Year']
+  3. student.greeting()
+  4. student['Favorite Teacher'].name
+  5. student.courseLoad[0]
 
 14.
   a. 32, '3' is a string so the + operator acts as a concat
