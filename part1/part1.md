@@ -21,22 +21,22 @@
     5. student.courseLoad[0]
 
 14.
-  1. 32, '3' is a string so the + operator acts as a concat
-  2. 1, '3' gets converted into a number due to the - operator
-  3. 3, since the first operand is a number, null gets converted to 0
-  4. '3null', '3' is a string so the + operator acts as a concat
-  5. 4, true is converted to 1 so 1 + 3 = 3
-  6. 0, false is 0 and so is null so 0 + 0 = 0
-  7. '3undefined', '3' is a string so the + operator acts as a concat
-  8. NaN, the - operator converts both operands to a number but undefined is NaN
+      1. 32, '3' is a string so the + operator acts as a concat
+      2. 1, '3' gets converted into a number due to the - operator
+      3. 3, since the first operand is a number, null gets converted to 0
+      4. '3null', '3' is a string so the + operator acts as a concat
+      5. 4, true is converted to 1 so 1 + 3 = 3
+      6. 0, false is 0 and so is null so 0 + 0 = 0
+      7. '3undefined', '3' is a string so the + operator acts as a concat
+      8. NaN, the - operator converts both operands to a number but undefined is NaN
 
 15.
-  1. True, '2' gets converted into 2, 2 > 1 = true
-  2. False, since both operands are strings, javascrip compares them lexicographically and '2' comes after '12'.
-  3. True, '2' gets converted into 2, 2 == 2 = true
-  4. False, === is a strict equality operator without type conversion, and 2 and '2' are different types.
-  5. False, true gets converted to 1 and 1 != 2
-  6. True, === checks if the operands are the same type, true is a boolean and Boolean(2) converts 2 into a boolean that is true since 2 != 0
+      1. True, '2' gets converted into 2, 2 > 1 = true
+      2. False, since both operands are strings, javascrip compares them lexicographically and '2' comes after '12'.
+      3. True, '2' gets converted into 2, 2 == 2 = true
+      4. False, === is a strict equality operator without type conversion, and 2 and '2' are different types.
+      5. False, true gets converted to 1 and 1 != 2
+      6. True, === checks if the operands are the same type, true is a boolean and Boolean(2) converts 2 into a boolean that is true since 2 != 0
 
 16. == checks the value between two operands and performs type conversions if necessary, whereas === checks the value between two operands without any type conversions.
 
@@ -44,9 +44,9 @@
 
 19. modifyArray takes as input an array and a function. In this case doSomething is the function and it takes as input a number and another function. doSomething will add 2 to that number and then call the function it was passed. Going back to modifyArray, it iterates through each element in the array and calls doSomething(array[i], function(x)). function(x) simple doubles the number given to it. So for each element in the array, it calls doSomething, adds 2 to the number, then calls function(x) and doubles that and pushes it to the new array. Aka 2(arr[i] + 2) for each element.
 
-21. The function prints out:
-1
-4
-3
-2
+21. The function prints out:  
+1  
+4  
+3  
+2  
 Numbers 1 and 4 are regular console.log() statements so they will be printed first and since the 1 comes before 4, it gets printed first out of the two. 3 gets printed 3rd because it takes a miniscule amount of time to set the timeout/delay to 0 seconds. And 2 gets printed last because it sets a delay of 1 second before being printed out.
