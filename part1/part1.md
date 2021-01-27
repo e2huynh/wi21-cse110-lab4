@@ -42,9 +42,9 @@
 
 17. "How are you?" gets printed, true == 2 is false because true gets converted to 1 and 1 != 2, if(a number) is true as long as the number is non-zero, so it will enter that if statement and print "How are you?".  
 
-19. modifyArray takes as input an array and a function. In this case doSomething is the function and it takes as input a number and another function. doSomething will add 2 to that number and then call the function it was passed. Going back to modifyArray, it iterates through each element in the array and calls doSomething(array[i], function(x)). function(x) simple doubles the number given to it. So for each element in the array, it calls doSomething, adds 2 to the number, then calls function(x) and doubles that and pushes it to the new array. Aka 2(arr[i] + 2) for each element.  
+19\. modifyArray takes as input an array and a function. In this case doSomething is the function and it takes as input a number and another function. doSomething will add 2 to that number and then call the function it was passed. Going back to modifyArray, it iterates through each element in the array and calls doSomething(array[i], function(x)). function(x) simple doubles the number given to it. So for each element in the array, it calls doSomething, adds 2 to the number, then calls function(x) and doubles that and pushes it to the new array. Aka 2(arr[i] + 2) for each element.  
 
-21. The function prints out:  
+21\. The function prints out:  
 1  
 4  
 3  
