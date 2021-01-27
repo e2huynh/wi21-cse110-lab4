@@ -13,7 +13,7 @@
 11. The program halts before line 13, but assuming no errors, line 13 will print 0 because finalPrice was defined with the "const" keyword and was set to 0, so finalPrice will have the value of 0 for the entire function.
 12. Assuming no errors, the function should return [0,0,0] because discounted is an const object/list the unchanging part of it is the address, not the values themselves so you can push to it without errors.
 
-13.
+13. Question 13
   1. student.name
   2. student['Grad Year']
   3. student.greeting()
