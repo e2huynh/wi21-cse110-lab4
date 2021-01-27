@@ -14,7 +14,7 @@
 12. Assuming no errors, the function should return [0,0,0] because discounted is an const object/list the unchanging part of it is the address, not the values themselves so you can push to it without errors.
 
 13.
-  a. student.name
+  13.1. student.name
   b. student['Grad Year']
   c. student.greeting()
   d. student['Favorite Teacher'].name
